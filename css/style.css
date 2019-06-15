@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background: url('../image/bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+/* .header_wrap {
+    width: 100%;
+    max-width: 1230px;
+    margin: auto;
+} */
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 121px;
+}
+.header_wrap {
+    text-align: center;
+}
+
+.logo {
+    width: 117px;
+    height: 28px;
+    position: relative;
+}
+
+.header_top__logo {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 286px;
+}
+
+.header_top__logo:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #593bff;
+    bottom: 5px;
+    right: -10px;
+}
+
+.logo_rectangular {
+    width: 100%;
+    max-width: 5px;
+    height: 5px;
+    background-color: #593bff;
+}
+
+.header_menu_item {
+    position: relative;
+    width: 35px;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.header_menu:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    top: 49px;
+    right: 132px;
+}
+
+.header_menu:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 28px;
+    height: 4px;
+    background-color: #ffffff;
+    top: 57px;
+    right: 129px;
+}
+
+.header_about_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+.header_about_us_paragraph {
+    
+/* width: 1043px;
+height: 165px; */
+color: #ffffff;
+font-family: 'Playfair Display', serif;
+font-size: 74px;
+font-weight: 700;
+line-height: 92px;
+margin-bottom: 29px;
+
+}
+.header_about_us_span {
+    font-style: italic;
+}
+
+
+
+.header_about_us_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 44px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 22px;
+    background-color: #593bff;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    
+    
+}
