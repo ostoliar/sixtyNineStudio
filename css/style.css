@@ -440,6 +440,7 @@ height: 99px; */
     font-size: 60px;
     font-weight: 700;
     line-height: 72px;
+    margin-bottom: 20px;
 }
 
 .contact_us_btn {
@@ -453,4 +454,53 @@ height: 99px; */
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
     border-radius: 22px;
     background-color: #593bff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1230px;
+    height: 419px;
+    margin: auto;
+    background: url(../image/Layer_8.png);
+    background-color: #593bff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.social_icons {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+
+.social_icons_linc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color:#593bff;
+}
+
+.social_icons_linc img {
+    width: 12x;
+    height: 16px;
+}
+
+
+.footer_paragraph {
+    
+    
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: uppercase;
 }
