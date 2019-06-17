@@ -240,7 +240,6 @@ height: 99px; */
     margin-bottom: 20px;
 }
 
-
 .service_wrapper__top_box__learnmore a {
     text-decoration: none;
     width: 66px;
@@ -250,4 +249,111 @@ height: 99px; */
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
+}
+
+.portfolio_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1230px;
+    height: 374px;
+    margin: auto;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.075), #ffffff);
+}
+
+.portfolio_description_slogan {
+    color: #593bff;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.portfolio_description_head {
+    height: 49px;
+    color: #231f20;
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.portfolio_wrapper {
+    width: 100%;
+    max-width: 1230px;
+    height: 700px;
+    margin: auto;
+    background-color: #231f20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_wrapper_img_small__top {
+    display: flex;
+}
+
+.portfolio_wrapper_img_small__bottom {
+    display: flex;
+}
+
+.portfolio_wrapper_img_big {
+    margin-right: 20px;
+}
+
+.portfolio_wrapper_img_big img {
+    width: 560px;
+    border-radius: 7px;
+}
+
+.portfolio_wrapper_img_small__top img {
+    width: 280px;
+    height: 280px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.portfolio_wrapper_img_small__top img:first-child {
+    margin-right: 20px;
+}
+
+
+
+.portfolio_wrapper_img_small__bottom a {
+    width: 280px;
+    height: 280px;
+    border-radius: 7px;
+    background-color: #593bff;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.portfolio_wrapper_img_small__bottom a span {
+    width: 141px;
+    height: 36px;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 45.01px;
+}
+
+.portfolio_wrapper_img_small__bottom img {
+    width: 280px;
+    height: 280px;
+    border-radius: 7px;
 }
